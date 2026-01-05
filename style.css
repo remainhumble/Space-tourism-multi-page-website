@@ -374,7 +374,7 @@ select {
     right: 1rem;
     top: 2rem;
     background: transparent;
-    background-image: url(./assets/shared/icon-hamburger.svg);
+    background-image: url(starter-code/assets/shared/icon-hamburger.svg);
     background-repeat: no-repeat;
     background-position: center;
     width: 1.5rem;
@@ -383,7 +383,7 @@ select {
   }
 
   .mobile-nav-toggle[aria-expanded="true"] {
-    background-image: url(./assets/shared/icon-close.svg);
+    background-image: url(starter-code/assets/shared/icon-close.svg);
   }
 
   .mobile-nav-toggle:focus-visible {
@@ -474,55 +474,55 @@ body {
 }
 /* home */
 .home {
-  background-image: url(./assets/home/background-home-mobile.jpg);
+  background-image: url(starter-code/assets/home/background-home-mobile.jpg);
 }
 
 @media (min-width: 35rem) {
   .home {
     background-position: center center;
-    background-image: url(./assets/home/background-home-tablet.jpg);
+    background-image: url(starter-code/assets/home/background-home-tablet.jpg);
   }
 }
 
 @media (min-width: 45rem) {
   .home {
-    background-image: url(./assets/home/background-home-desktop.jpg);
+    background-image: url(starter-code/assets/home/background-home-desktop.jpg);
   }
 }
 
 /* destination */
 .destination {
-  background-image: url(./assets/destination/background-destination-mobile.jpg);
+  background-image: url(starter-code/assets/destination/background-destination-mobile.jpg);
 }
 
 @media (min-width: 35rem) {
   .destination {
     background-position: center center;
-    background-image: url(./assets/destination/background-destination-tablet.jpg);
+    background-image: url(starter-code/assets/destination/background-destination-tablet.jpg);
   }
 }
 
 @media (min-width: 45rem) {
   .destination {
-    background-image: url(./assets/destination/background-destination-desktop.jpg);
+    background-image: url(starter-code/assets/destination/background-destination-desktop.jpg);
   }
 }
 
 /* crew */
 .crew {
-  background-image: url(./assets/crew/background-crew-mobile.jpg);
+  background-image: url(starter-code/assets/crew/background-crew-mobile.jpg);
 }
 
 @media (min-width: 35rem) {
   .crew {
     background-position: center center;
-    background-image: url(./assets/crew/background-crew-tablet.jpg);
+    background-image: url(starter-code/assets/crew/background-crew-tablet.jpg);
   }
 }
 
 @media (min-width: 45rem) {
   .crew {
-    background-image: url(./assets/crew/background-crew-desktop.jpg);
+    background-image: url(starter-code/assets/crew/background-crew-desktop.jpg);
   }
 }
 
@@ -634,6 +634,7 @@ body {
 
 @media (min-width: 45em) {
   .grid-container {
+    display: grid;
     text-align: left;
     column-gap: var(--container-gap, 2rem);
     grid-template-columns: minmax(1rem, 1fr) repeat(2, minmax(0, 30rem)) minmax(
