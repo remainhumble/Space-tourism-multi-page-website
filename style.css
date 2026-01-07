@@ -729,7 +729,7 @@ body {
 
 .grid-container--technology > .number-indicators {
   grid-area: tabs;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .grid-container--technology > .technology-details {
@@ -812,6 +812,7 @@ body {
   }
 
   .grid-container--technology > .number-indicators {
+    grid-area: auto;
     flex-direction: column;
     justify-self: stretch;
     align-self: start;
